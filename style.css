@@ -55,10 +55,29 @@
     }
   }
 
+.navbar {
+  background: lightgrey;
+}
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: cadetblue;
+  color: black;
+  cursor: pointer;
+}
+.navbar li a{
+  color: black;
+  text-decoration: none;
+}
+
+
 h1{font-size: 60px;
     color: cadetblue;
     text-align: center;
     text-decoration: underline;
     background-color: lightgray;
+    padding: 30px;
 }
 h2{font-size: 28px;}
