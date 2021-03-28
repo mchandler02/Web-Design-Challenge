@@ -1,3 +1,4 @@
+/* sidebar code is adapted from https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp */
 /* The side navigation menu */
 .sidebar {
     margin: 0;
@@ -25,7 +26,7 @@
   
   /* Links on mouse-over */
   .sidebar a:hover:not(.active) {
-    background-color: rgba(61, 116, 73, 0.644);
+    background-color: cadetblue;
     color: white;
   }
   
